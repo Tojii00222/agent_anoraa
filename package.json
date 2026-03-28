@@ -1,0 +1,30 @@
+{
+  "name": "anora-agent",
+  "version": "2.0.0",
+  "description": "ANORA — Advanced Neural Operative Reasoning Agent. A Copilot-like AI companion powered by Claude Sonnet 4.6 via OpenRouter.",
+  "type": "module",
+  "main": "anora.js",
+  "scripts": {
+    "start": "node anora.js",
+    "dev": "node --watch anora.js"
+  },
+  "keywords": [
+    "anora",
+    "ai",
+    "agent",
+    "claude",
+    "openrouter",
+    "copilot",
+    "cli"
+  ],
+  "author": "ANORA",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.36",
+    "dotenv": "^16.6.1",
+    "openai": "^4.104.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
